@@ -1,2 +1,2 @@
 # Frontend-Dependency
-Frontend Library and Frameworks Depency for your project
+Frontend Libraries Dependency for your Web Interface project
