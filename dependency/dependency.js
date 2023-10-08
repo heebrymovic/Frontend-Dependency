@@ -32,9 +32,9 @@ function modal(time) {
 
 		let target = e.target;
 
-		if (target.classList.contains("modal-open")) {
+		if (target.classList.contains("modal-open") || target.closest(".modal-open")) {
 
-			let modal = document.querySelector(e.target.dataset.modal);
+			let modal = document.querySelector(e.target.closest(".modal-open").dataset.modal);
 
 			let modalType = modal.dataset.type;
 
